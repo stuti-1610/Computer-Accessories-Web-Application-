@@ -1,0 +1,10 @@
+$color:#86198f;
+$button-color:#be123c;
+
+
+@mixin flex ($dir){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $dir;
+}
